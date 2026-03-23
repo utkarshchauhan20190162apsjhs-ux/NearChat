@@ -13,3 +13,10 @@ NearChat is an offline-first nearby messaging Android app built with Kotlin + Je
 ```bash
 ./gradlew :app:assembleDebug
 ```
+
+## AdSense Setup Snippets
+For a companion website/landing page, include the following:
+
+1. Add `ads.txt` at your web root with:
+   `google.com, pub-7803324425924506, DIRECT, f08c47fec0942fa0`
+2. Add the meta + AdSense script from `web/adsense_head_snippet.html` inside your HTML `<head>`.
