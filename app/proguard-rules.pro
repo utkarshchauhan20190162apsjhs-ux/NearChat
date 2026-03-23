@@ -1,0 +1,3 @@
+-keep class androidx.room.** { *; }
+-keep class com.nearchat.data.model.** { *; }
+-dontwarn kotlinx.coroutines.**
