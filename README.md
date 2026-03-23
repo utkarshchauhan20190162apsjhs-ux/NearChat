@@ -20,3 +20,9 @@ For a companion website/landing page, include the following:
 1. Add `ads.txt` at your web root with:
    `google.com, pub-7803324425924506, DIRECT, f08c47fec0942fa0`
 2. Add the meta + AdSense script from `web/adsense_head_snippet.html` inside your HTML `<head>`.
+
+## GitHub Pages 404 Fix
+If GitHub Pages shows `404 File not found`, ensure:
+- `index.html` exists at the published root (this repo now includes one).
+- Pages source points to the correct branch/folder.
+- Deployment has finished in repository **Settings → Pages**.
